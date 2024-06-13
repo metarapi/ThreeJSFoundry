@@ -1,0 +1,16 @@
+{
+    "name": "threejs-foundry",
+    "title": "Three.js Foundry VTT Integration",
+    "description": "Example integration of three.js with Foundry VTT",
+    "version": "1.0.0",
+    "minimumCoreVersion": "10",
+    "author": "metarapi",
+    "esmodules": [
+      "scripts/three/build/three.module.js",  
+      "scripts/three/examples/jsm/controls/OrbitControls.js",
+      "main.js"
+    ],
+    "socket" : true,
+    "styles": ["styles.css"]
+  }
+  
